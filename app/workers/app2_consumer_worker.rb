@@ -1,6 +1,6 @@
 require 'sidekiq-scheduler'
 
-class App1ConsumerWorker
+class App2ConsumerWorker
   include Sidekiq::Worker
 
   def perform
