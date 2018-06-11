@@ -18,6 +18,10 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'config'
+gem 'sidekiq'
+gem 'sidekiq-status'
+gem 'sidekiq-scheduler'
+gem 'sinatra'
 
 group :development, :test do
   gem 'pry-rails'
