@@ -5,3 +5,9 @@
   app1_consumer_worker:
     cron: '0 */5 * * * *'
     class: App1ConsumerWorker
+  app2_seeder_worker:
+    cron: '0 */1 * * * *'
+    class: App2SeederWorker
+  app2_consumer_worker:
+    cron: '0 */2 * * * *'
+    class: App2ConsumerWorker
