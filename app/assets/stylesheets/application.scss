@@ -13,3 +13,13 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+table {
+  thead {
+    background: #291260;
+    color: #FFFFFF;
+  }
+  td {
+    text-align: center;
+  }
+}

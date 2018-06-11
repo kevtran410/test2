@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   mount Sidekiq::Web, at: '/sidekiq'
 
+  resources :report1, only: :index
+  resources :report2, only: :index
 end
